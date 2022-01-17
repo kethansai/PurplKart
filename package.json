@@ -1,5 +1,26 @@
 {
+  "name": "purplkart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kethansai/PurplKart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kethansai/PurplKart/issues"
+  },
+  "homepage": "https://github.com/kethansai/PurplKart#readme",
   "dependencies": {
-    "react-icons": "^4.3.1"
+    "dotenv": "^14.1.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6",
+    "nodemon": "^2.0.15"
   }
 }
