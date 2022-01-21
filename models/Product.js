@@ -10,4 +10,4 @@ const productSchema = new mongoose.Schema({
     price : { type:Number, required:true},
 },{timestamps:true});
 
-module.exports = mongoose.Model("Products",productSchema);
+module.exports = mongoose.model("Products",productSchema);
